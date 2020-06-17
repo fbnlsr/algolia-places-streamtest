@@ -16,7 +16,7 @@
           <b-form-group>
             <b-button variant="danger" @click="resetForm">Reset</b-button>
           </b-form-group>
-          <highlight-code lang="json" id="jsonResponse">
+          <highlight-code lang="json" id="jsonResponse" v-show="jsonResponse">
             {{ jsonResponse }}
           </highlight-code>
         </b-col>

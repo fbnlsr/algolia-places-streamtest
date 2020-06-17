@@ -5,7 +5,7 @@ import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 import VueHighlightJS from 'vue-highlight.js';
 import json from 'highlight.js/lib/languages/json';
 import 'leaflet/dist/leaflet.css';
-import 'highlight.js/styles/default.css';
+import 'highlight.js/styles/dracula.css';
 
 // Install BootstrapVue
 Vue.use(BootstrapVue);
