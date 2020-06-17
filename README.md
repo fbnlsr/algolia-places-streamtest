@@ -1,4 +1,6 @@
-# algolia-places
+# Algolia Places stream test
+
+Live demo: https://algolia-places-streamtest.netlify.app/
 
 ## Project setup
 ```
