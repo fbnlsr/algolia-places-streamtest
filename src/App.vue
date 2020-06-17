@@ -3,7 +3,7 @@
     <b-container fluid>
       <h1 class="mb-5">Algolia Places search:</h1>
       <b-row>
-        <b-col>
+        <b-col sm="12" lg="6">
           <b-form-group>
             <b-form-input
               type="search"
@@ -20,7 +20,7 @@
             {{ jsonResponse }}
           </highlight-code>
         </b-col>
-        <b-col>
+        <b-col sm="12" lg="6">
           <l-map
             id="myMap"
             ref="myMap"
